@@ -1,0 +1,80 @@
+#head{height: 100px;}
+
+
+#main  a img{
+	display: inline-block;
+	margin: 100px 80px 100px;
+}
+#main .sign_in{
+	width: 450px;
+	height: 400px;
+	margin: 70px 50px;
+}
+#main .sign_in > a{
+	display: block;
+	width: 50%;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+}
+.red{
+	display: inline-block;
+	height: 40px;
+	border-bottom: 2px solid #DC0F50;
+	color: #DC0F50;
+}
+#main .sign_in .infor{
+	height: 340px;
+	margin-top: 41px;
+	border: 1px solid #ccc;
+}
+#main .sign_in .infor ul li:first-child{
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	padding-left: 100px;
+	margin-top: 40px;
+	background: url(../img/icon/error_bg.png) no-repeat;
+	background-position: 75px 15px;
+	display: none;
+}
+#main .sign_in .infor ul li > input{
+	display: block;
+	width: 243px;
+	height: 28px;
+	padding: 5px 0 5px 60px;
+	border: 1px solid #ccc;
+	margin: 20px auto 5px;
+}
+#main .sign_in .infor ul li{position: relative;}
+#main .sign_in .infor ul li i{
+	position: absolute;
+	top: 7px;
+	left: 85px;
+}
+#main .sign_in .infor label{
+	margin-left: 70px;
+}
+#main .sign_in .infor label a{
+	float: right;
+	color: rgb(102,102,102);
+	margin-right: 65px;
+}
+#main .sign_in .infor label a:hover{
+	color: #DC0F50;
+}
+#main .sign_in .infor p a{
+	display: block;
+	width: 306px;
+	height: 40px;
+	background: #DC0F50;
+	color: white;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px auto;
+}
+#main .sign_in .infor p a:hover{opacity: 0.8;}

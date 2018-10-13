@@ -1,0 +1,89 @@
+#head{height: 100px;}
+
+#main ul{
+	width: 600px;
+	margin-top: 80px;
+	margin-left: 75px;
+}
+#main ul li{
+	margin-bottom: 20px;
+}
+#main ul li b{
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	margin-right: 15px;
+	vertical-align: bottom;
+	line-height: 40px;
+	text-align: right;
+}
+#main ul li b i{color: #DC0F50;}
+#main ul li input{
+	width: 263px;
+	height: 20px;
+	padding: 9px 20px;
+	border: 1px solid #ccc;
+}
+#main ul li > i{
+	padding-left: 30px;
+	background: url(../img/icon/error_bg.png) no-repeat;
+	background-position: 10px 4px;
+	color: red;
+	display: none;
+}
+#main ul li:nth-child(2) input,
+#main ul li:nth-child(5) input{
+	width: 130px;
+}
+#main ul li:nth-child(2) > i:nth-of-type(1),
+#main ul li:nth-child(5) > i:nth-of-type(1){
+	display: inline-block;
+	vertical-align: bottom;
+	width: 100px;
+	height: 40px;
+	background: #ccc;
+	line-height: 40px;
+	font-size: 18px;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+#main ul li:nth-child(5) > i:nth-of-type(1){
+	background: #DC0F50;
+	color: white;
+}
+#main ul li label input{
+	width: 13px;
+	height: 13px;
+	margin-left: 30px;
+}
+#main ul li:nth-last-child(2) a{
+	display: block;
+	width: 305px;
+	height: 40px;
+	background: #DC0F50;
+	line-height: 40px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-left: 80px;
+}
+#main ul li:nth-last-child(2) a:hover{
+	opacity: 0.8;
+}
+#main ul li:last-child{
+	text-align: center;
+}
+#main ul li:last-child a{
+	text-decoration: underline;
+	color: #666;
+}
+#main ul li:last-child a:hover{
+	color: #DC0F50;
+}
+
+
+#main .main_r a{
+	display: block;
+	padding-top: 80px;
+	padding-right: 75px;
+}

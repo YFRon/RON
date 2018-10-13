@@ -1,0 +1,149 @@
+#main .container{
+	width: 1140px;
+}
+
+#main h2{
+	height: 55px;
+	line-height: 55px;
+	font-size: 12px;
+	color: black;
+}
+#main h2 i{
+	display: inline-block;
+	width: 40px;
+	color: white;
+	margin-right: 10px;
+	background: url(../img/icon/h2_bg.png) no-repeat center left;
+}
+#main table{
+	width: 100%;	
+}
+#main table tr{
+	height: 84px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+#main table th,#main table td{border: 0 none;}
+#main table tr:first-child{
+	height: 44px;
+	background: #eee;
+}
+#main table tr img{
+	width: 83px;
+	height: 83px;
+	float: left;
+	margin-left: 15px;
+}
+#main table tr td:first-child{
+	width: 60px;
+}
+#main table tr td:nth-child(2){
+	width: 596px;
+	padding: 16px 0;
+}
+#main table tr td:nth-child(2) a{
+	display: inline-block;
+	width: 589px;
+	height: 83px;
+	color: #333;
+}
+#main table tr td:nth-child(2) a b{
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+	margin-left: -30px;
+}
+#main table tr td:nth-child(2) a:hover b{color: #DC0F50;}
+#main table tr td:nth-child(2) a span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+	color: #999;
+}
+#main table tr td:nth-child(3){
+	width: 125px;
+	color: black;
+	font-weight: bold;
+}
+#main table tr td:nth-child(4){
+	width: 160px;
+}
+#main table tr td:nth-child(4) a{
+	display: inline-block;
+	width: 27px;
+	height: 24px;
+	border: 1px solid #ccc;
+}
+#main table tr td:nth-child(4) input{
+	display: inline-block;
+	width: 28px;
+	height: 24px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#main table tr td:nth-child(4) span{
+	display: block;
+	padding-top: 5px;
+	font-size: 12px;
+	color: red;
+}
+#main table tr td:nth-child(5){
+	width: 105px;
+	color: #DC0F50;
+	font-weight: bold;
+}
+#main table tr td:nth-child(6){
+	width: 102px;
+}
+#main table tr td:nth-child(6) a{
+	color: black;
+}
+#main table tr td:nth-child(6) a:hover{
+	color: #DC0F50;
+}
+
+#main .all_check{
+	height: 100px;
+	line-height: 100px;
+	padding-left: 10px;
+	color: black;
+}
+#main .all_check a{
+	color: black;
+	margin-left: 30px;
+}
+#main .all_check a:hover{
+	color: #DC0F50;
+}
+#main .pay{
+	height: 80px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #999;
+	padding-top: 20px;
+}
+#main .pay span:first-child{
+	margin-right: 40px;
+}
+#main .pay span:first-child i{
+	color: #DC0F50;
+}
+
+#main .pay span:nth-child(2) i{
+	color: #DC0F50;
+	font-size: 30px;
+	font-weight: bold;
+}
+#main .pay a{
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background: #DC0F50;
+	margin-left: 20px;
+}
